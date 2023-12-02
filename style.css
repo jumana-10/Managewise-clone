@@ -54,7 +54,7 @@ nav{
 
 /* home style */
 .Home-container {
-    height: 500px;
+    height: 157vh;
     background-color: #f9ecec;
     display: flex;
     flex-direction: column;
@@ -154,7 +154,7 @@ nav{
 /* home page css */
 
 /* Dashboard page */
-.card {
+/* .card {
     width: 100%;
     height: 80vh; 
     display: flex;
@@ -166,20 +166,21 @@ nav{
     margin: 0px;
     padding: 15px; 
     box-sizing: border-box; 
-}
+} */
 
-.Dasboard-image {
-    width: 60%; 
+.Dasboard-image img{
+    width: 100%; 
     height: auto; 
-    margin-top: 20px;
+    margin-top: 80px;
+    border-radius: 20px;
     border-bottom: 1px solid grey;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
 } 
 
 /* primium page */
 .primium-container {
     width: 100%;
-    height: 750px;
+    height: 550vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -253,21 +254,134 @@ nav{
     text-align: left;
 }
 
-
-
-
-
-
-
-/* .navbar {
-    border: 1px solid black;
-    background-color: rgb(255, 213, 234);
+/* smart task management */
+.task-card {
+    width: 100%;
+    height: 450px;
+    margin-top: 120px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.navbar-brand {
-    margin: 5px;
+.task-card img {
+    margin-top: 40px;
 }
 
-.nav-items {
-    color: black;
-} */
+.task-card h1 {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 45px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    font-weight:600;
+}
+
+.task-card p {
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* STM end */
+
+/* flexible Scheduling */
+.schedule-card {
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.schedule-card img {
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 95%;
+    box-shadow: -10px -10px 10px -5px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-card h1 {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 45px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    font-weight:600;
+}
+
+.schedule-card p {
+    text-align: left;
+    margin-left: 20px;
+}
+/* FS end */
+
+/* Easy communication */
+.chat-card {
+    width: 100%;
+    height: 650px;
+    margin-top: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.chat-card img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.chat-card h1 {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 45px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    font-weight:600;
+}
+
+.chat-card p {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+/* EC end */
+
+/* Analytics */
+.Analytic-card {
+    width: 100%;
+    height: 650px;
+    margin-top: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.Analytic-card img {
+    margin: 30px;
+    border-radius: 20px;
+    width: 90%;
+    box-shadow: -10px 0 10px -5px rgba(0, 0, 0, 0.1), 
+                10px 0 10px -5px rgba(0, 0, 0, 0.1), 
+                 0 -10px 10px -5px rgba(0, 0, 0, 0.1), 
+                 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+}
+
+.Analytic-card h1 {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 45px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    font-weight:600;
+}
+
+.Analytic-card p {
+    text-align: left;
+    margin-left: 20px;
+}
+/* analytics end */
+
+/* productivity */
+.productivity {
+    width: 100%;
+    height: 700px;
+    background-color: #666;
+}
