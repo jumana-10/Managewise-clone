@@ -664,8 +664,7 @@ nav{
 /* pricing */
 .pricing {
     width: 100%;
-    height: 400vh;
-    background-color: rgb(150, 153, 153);
+    height: 370vh;
 }
 
 .pricing-plan {
@@ -713,7 +712,7 @@ nav{
     width: 40%;
     height: 500px;
     margin-top: -100px;
-    background-color: rgb(186, 186, 186);
+    background-color: rgb(238, 238, 238);
     border-radius: 20px;
 }
 
@@ -825,7 +824,7 @@ p span {
     width: 40%;
     height: 580px;
     margin-top: 80px;
-    background-color: rgb(186, 186, 186);
+    background-color: rgb(238, 238, 238);
     border-radius: 20px;
 }
 
@@ -846,7 +845,7 @@ p span {
 }
 
 .business p {
-    padding: 0;
+    padding: 0px;
 } 
 
 p span {
@@ -871,3 +870,118 @@ p span {
     border: 1px solid black;
     transition: border 0.3s ease;
 }
+/* PRICING END */
+
+/* TESTIMONIALS */
+.testimonial {
+    width: 100%;
+    height: 200vh;
+}
+
+.testimonial-card {
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.testimonial h4 {
+    width: 12%;
+    margin-left: 70px;
+    margin-top: 120px;
+    border: 1px solid lightblue;
+    background-color: white;
+    color: darkviolet;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.testimonial h1 {
+    width: 55%;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.testimonial span {
+    color: #ff5733; 
+}
+
+.testimonial p {
+    width: 45%;
+    margin-left: 70px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* card marque */
+.testimonial-container {
+    overflow-x: auto;
+}
+
+.scroll-card {
+    display: flex;
+    white-space: wrap;
+    height: 100vh;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+    width: 40%;
+    flex: 0 0 30%;
+    height: 70vh; /* Set height as needed */
+    background-color: #dbdbdb;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+    color: white;
+    text-align: center;
+    line-height: 50px; /* Center content vertically */
+    box-sizing: border-box;
+}
+
+.scroll-card p {
+    width: 90%;
+    height: 75%;
+    color: black;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 0px;
+}
+
+.scroll-card img {
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-left: -60%;
+}
+
+/* img card */
+.img-card{
+    width: 100%;
+    height: 80px;
+    margin-top: -10%;
+}
+
+.img-card img {
+    width: 100px;
+    height: 100px;
+    margin-top: -10%;
+}
+
+.img-card h5,h6 {
+    color: black;
+    margin: -50px;
+    margin-left: 20px;
+    font-size: 30px;
+    flex: 1;
+}
+
+/* .testimonial-card .card {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+} */
