@@ -601,8 +601,7 @@ nav{
 /* FAQ */
 .FAQ {
     width: 100%;
-    height: 100vh;
-    background-color: pink;
+    height: 130vh;
     margin-top: -30%;
 }
 
@@ -615,6 +614,7 @@ nav{
     padding: 7px;
     border-radius: 10px;
     font-size: 16px;
+    margin-bottom: 15px;
 }
 
 .FAQ .body h1 {
@@ -629,6 +629,188 @@ nav{
 .FAQ p {
     width: 45%;
     margin-left: 70px;
+    margin-bottom: 15px;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
+}
+
+.FAQ-card {
+    width: 90%;
+    height: 55px ;
+    margin-left: 70px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.FAQ-card h4 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.plus-icon {
+    font-size: 40px;
+    color: blue;
+}
+
+/* FAQ */
+
+/* pricing */
+.pricing {
+    width: 100%;
+    height: 400vh;
+    background-color: rgb(150, 153, 153);
+}
+
+.pricing-plan {
+    width: 100%;
+    height: 60vh;
+}
+
+.pricing-plan h4 {
+    width: 8%;
+    margin-left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightblue;
+    font-size: 16px;
+    color: darkviolet;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.pricing-plan h1 {
+    margin-left: 30%;
+    margin-top: 15px;
+}
+
+.pricing-plan span {
+    color: #ff5733; 
+}
+
+.pricing-plan p {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.price-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.free {
+    width: 40%;
+    height: 500px;
+    margin-top: -100px;
+    background-color: rgb(186, 186, 186);
+    border-radius: 20px;
+}
+
+.free h6 {
+    width: 50px;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid lightblue;
+    padding: 5px 8px;
+    margin-left: 30px;
+    border-radius: 10px;
+    color: #ff5733;
+}
+
+.free h5 span {
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+p span {
+    color: #00ff00; /* Set green color */
+    margin-right: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.free button {
+    width: 20%;
+    border: none;
+    margin-left: 40px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.free button:hover {
+    border: 1px solid black;
+    transition: border 0.3s ease;
+}
+
+.price-card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.standard {
+    width: 40%;
+    height: 600px;
+    margin-top: 80px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.standard  h6 {
+    width: 100px;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid lightblue;
+    padding: 5px 8px;
+    margin-left: 30px;
+    border-radius: 10px;
+    color: #ff5733;
+}
+
+.standard  h5 span {
+    font-size: 50px;
+    margin-left: 30px;
+    color: white;
+}
+
+.standard p {
+    padding: 0;
+    color: grey;
+} 
+
+p span {
+    color: #00ff00; /* Set green color */
+    margin-right: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.standard button {
+    width: 30%;
+    border: none;
+    color: white;
+    background-color: darkviolet;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: border 0.2s ease-in-out;
+}
+
+.standard button:hover {
+    box-shadow: 0 0 8px rgb(5, 5, 5);
 }
