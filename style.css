@@ -419,10 +419,10 @@ nav{
     font-size: 20px;
     margin-left: 60px;
     color: gray;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
 }
 
-.product-card {
+.product-card1 {
     width: 90%;
     height: 250px;
     background-color: rgba(0, 0, 0, 0.2);
@@ -430,11 +430,118 @@ nav{
     margin-top: 40px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
 }
 
-.product-card h3 {
+.pro-img img {
+    width: 50px;
+    height: 50px;
+    /* display: block; */
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.pro-title h3 {
+    margin-top: 15px;
+    font-family:'Poppins', sans-serif;
+}
+
+.pro-content {
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 
+.product-card2 {
+    width: 90%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 60px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.pro-img img {
+    width: 50px;
+    height: 50px;
+    /* display: block; */
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.pro-title h3 {
+    margin-top: 15px;
+    font-family:'Poppins', sans-serif;
+}
+
+.pro-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card3 {
+    width: 90%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 60px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.pro-img img {
+    width: 50px;
+    height: 50px;
+    /* display: block; */
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.pro-title h3 {
+    margin-top: 15px;
+    font-family:'Poppins', sans-serif;
+}
+
+.pro-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons .box {
+    width: 100%;
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+   
+}
+
+.icons img {
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+    border-radius: 20px;
+    margin-left: 15px;
+    
+}
+
+.icons .git {
+    background-color: #f9ecec;
+    border-radius: 50px;
+}
+
+.icons .framer {
+    background-color: rgb(59, 59, 59);
+}
